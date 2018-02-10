@@ -6,4 +6,11 @@ class MY_Controller extends MX_Controller
     {
         parent::__construct();
     }
+
+    public function logout()
+    {
+        $this->session->unset_userdata(['user']);
+
+        redirect(base_url());
+    }
 }

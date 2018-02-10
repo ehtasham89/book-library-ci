@@ -20,16 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		/*
-		Users::insert([
-			['first_name'=>'Usman', 'last_name' => 'Nasir', 'email' => 'usman@gmail.com'], 
-			['first_name'=>'Awais', 'last_name' => 'Nasir', 'email' => 'awais@gmail.com']
-		]);
-		*/
-
-		$user = Users::paginate(1)->toArray();
-		echo"<pre>";
-		dd($user);
 		$this->load->view('welcome_message');
 	}
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-02-09 21:05:38
+/* Smarty version 3.1.30, created on 2018-02-09 23:48:33
   from "D:\xampp7\htdocs\book-library-ci\application\views\templates\example.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a7dff128d53e4_35744229',
+  'unifunc' => 'content_5a7e25416f2ad1_87199123',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ae12f725d2fd2476fb21a51e170cef014f39fb7f' => 
     array (
       0 => 'D:\\xampp7\\htdocs\\book-library-ci\\application\\views\\templates\\example.tpl',
-      1 => 1518205927,
+      1 => 1518213699,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5a7dff128d53e4_35744229 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a7e25416f2ad1_87199123 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_capitalize')) require_once 'D:\\xampp7\\htdocs\\book-library-ci\\application\\third_party\\smarty\\libs\\plugins\\modifier.capitalize.php';
 if (!is_callable('smarty_function_ci_config')) require_once 'D:\\xampp7\\htdocs\\book-library-ci\\application\\third_party\\smarty\\libs\\plugins\\function.ci_config.php';
 if (!is_callable('smarty_modifier_date_format')) require_once 'D:\\xampp7\\htdocs\\book-library-ci\\application\\third_party\\smarty\\libs\\plugins\\modifier.date_format.php';

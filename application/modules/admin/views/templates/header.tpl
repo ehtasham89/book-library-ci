@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<style>
 		.container{
-			max-width:400px;
 			margin-top:100px;
 		}
 		.title, footer{
 			text-align: center;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head> 
