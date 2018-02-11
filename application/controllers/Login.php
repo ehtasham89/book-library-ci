@@ -7,9 +7,9 @@ class Login extends MY_Controller
     public function __construct()
     {
         parent::__construct();
-        
+
         $this->users = new Users();
-        $this->load->library('form_validation');
+        $this->load->library(['form_validation', 'smartie' => 'smarty']);
 		$this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', '</div>');
     }
 

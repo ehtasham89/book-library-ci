@@ -1,7 +1,9 @@
 <?php
 use Illuminate\Database\Eloquent\Model;
 
-class Racks extends Model
+class RacksModel extends Model
 {
     protected $table = "racks"; 
+
+    public $timestamps = true;
 }

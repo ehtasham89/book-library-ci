@@ -6,7 +6,7 @@
     </div>
 {/if}
 
-<h2 class="title"> list racks </h2>
+<h2 class="title"> list racks in clients </h2>
 
 
 
