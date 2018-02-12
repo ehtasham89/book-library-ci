@@ -6,7 +6,7 @@
     <form action="" method="post">
     <div class="form-group">
             <label for="name">{ci_language line="Name"}</label>
-            <input type="text" class="form-control" name="name" value="{$rack.name}" id="name" value="{ci_form_validation field='name'}" placeholder="Enter Rack Name">
+            <input type="text" class="form-control" name="name" id="name" value="{$rack.name}" placeholder="Enter Rack Name">
             {ci_form_validation field='name' error='true'}
         </div>
         

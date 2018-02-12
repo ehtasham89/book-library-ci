@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class RacksModel extends Model
+class BooksModel extends Model
 {
-    protected $table = "racks"; 
+    protected $table = "books"; 
 
     public $timestamps = true;
 }
