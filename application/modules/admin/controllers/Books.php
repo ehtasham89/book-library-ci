@@ -16,8 +16,8 @@ class Books extends Admin
     {
         $data = BooksModel::select('books.*', 'racks.name as rack_name')
                             ->join('racks', 'racks.id', '=', 'books.rack_id')
-                            ->orderBy('id', 'desc')
-                            ->paginate(10, ['*'], 'page', $this->input->get('page'));
+                            ->orderBy('books.id', 'desc')
+                            ->paginate(5, ['*'], 'page', $this->input->get('page'));
         
         $this->smarty->view( 'books/list.tpl', [ 'title' => 'Books', 'data' => count($data) ? $data->toArray():[] ] );
     }

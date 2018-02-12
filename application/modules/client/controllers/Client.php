@@ -9,17 +9,11 @@ class Client extends MY_Controller
         }
 
         $this->load->library(['form_validation', 'mysmartie' => 'smarty']);
+        $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', '</div>');
     }
 
     public function index()
     {
-        echo "I m Client!!!";
-    }
-
-    public function listRacks()
-    {
-        //$this->load->model('Racks');
-        //dd(Racks::all());
-        $this->smarty->view( 'racks/list.tpl', ['title' => 'list racks'] );
+        $this->smarty->view('home.tpl', ['title' => 'Client Portal']);
     }
 }

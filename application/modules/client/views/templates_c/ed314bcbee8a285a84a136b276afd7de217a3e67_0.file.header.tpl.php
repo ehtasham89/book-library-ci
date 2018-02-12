@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-02-11 20:43:44
+/* Smarty version 3.1.30, created on 2018-02-12 03:00:16
   from "D:\xampp7\htdocs\book-library-ci\application\modules\client\views\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a809cf0579d97_32888950',
+  'unifunc' => 'content_5a80f53057efc6_31699914',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ed314bcbee8a285a84a136b276afd7de217a3e67' => 
     array (
       0 => 'D:\\xampp7\\htdocs\\book-library-ci\\application\\modules\\client\\views\\templates\\header.tpl',
-      1 => 1518378173,
+      1 => 1518400787,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a809cf0579d97_32888950 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a80f53057efc6_31699914 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <!doctype html>
@@ -36,8 +36,8 @@ function content_5a809cf0579d97_32888950 (Smarty_Internal_Template $_smarty_tpl)
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<style>
-		.container{
-			margin-top:100px;
+		.container,.title{
+			margin-top:20px;
 		}
 		.title, footer{
 			text-align: center;
@@ -47,5 +47,36 @@ function content_5a809cf0579d97_32888950 (Smarty_Internal_Template $_smarty_tpl)
 </head> 
 <body>
 <div class="container">
-<?php }
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<?php echo base_url();?>
+client/">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="<?php echo base_url();?>
+client/racks">Racks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="<?php echo base_url();?>
+client/books">Books</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-item nav-link" href="<?php echo base_url();?>
+client/logout">Logout</a>
+      </li>
+    </ul>
+	<form action="<?php echo base_url();?>
+client/books" method="get" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search Books" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav><?php }
 }

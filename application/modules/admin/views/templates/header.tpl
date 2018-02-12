@@ -44,6 +44,9 @@
       <li class="nav-item">
         <a class="nav-item nav-link" href="{base_url()}admin/books">Books</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="{base_url()}admin/logout">Logout</a>
+      </li>
     </ul>
   </div>
 </nav>
