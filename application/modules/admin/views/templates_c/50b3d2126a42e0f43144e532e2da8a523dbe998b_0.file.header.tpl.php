@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-02-12 00:02:57
+/* Smarty version 3.1.30, created on 2018-02-12 03:34:11
   from "D:\xampp7\htdocs\book-library-ci\application\modules\admin\views\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a80cba1e90a95_73856744',
+  'unifunc' => 'content_5a80fd23d88317_36077834',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '50b3d2126a42e0f43144e532e2da8a523dbe998b' => 
     array (
       0 => 'D:\\xampp7\\htdocs\\book-library-ci\\application\\modules\\admin\\views\\templates\\header.tpl',
-      1 => 1518390174,
+      1 => 1518400811,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a80cba1e90a95_73856744 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a80fd23d88317_36077834 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <!doctype html>
@@ -73,6 +73,10 @@ admin/racks">Racks</a>
       <li class="nav-item">
         <a class="nav-item nav-link" href="<?php echo base_url();?>
 admin/books">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="<?php echo base_url();?>
+admin/logout">Logout</a>
       </li>
     </ul>
   </div>

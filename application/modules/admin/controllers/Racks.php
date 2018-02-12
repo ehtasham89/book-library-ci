@@ -13,7 +13,7 @@ class Racks extends Admin
 
     public function index()
     {
-        $data = RacksModel::orderBy('id', 'desc')->paginate(10, ['*'], 'page', $this->input->get('page'));
+        $data = RacksModel::orderBy('id', 'desc')->paginate(5, ['*'], 'page', $this->input->get('page'));
 
         $this->smarty->view( 'racks/list.tpl', [ 'title' => 'Racks', 'data' => count($data) ? $data->toArray():[] ] );
     }
